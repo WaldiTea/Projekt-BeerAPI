@@ -76,15 +76,18 @@ p {
 
 .back-btn {
   width: 20%;
-  margin-bottom: 35%;
+}
+
+.map-wrapper,
+.beer-item-wrapper {
+  position: relative;
 }
 
 .navbar {
-  width: 100%;
-  position: fixed;
-  bottom: 0;
+  width: 92%;
   background: #ffca41;
   display: grid;
   place-items: center;
-  padding: 3%;
+  padding: 1rem;
+  margin-top: 5%;
 }

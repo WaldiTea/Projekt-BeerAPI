@@ -15,10 +15,10 @@ const BeerItem = () => {
         console.log(json)
         setItem(json);
       });
-  }, []);
+  }, [apiId]);
 
   return (
-    <>
+    <div className='beer-item-wrapper'>
       <div className='item'>
         <img className='item-img' src={item.image_url} alt="" />
         <h2 className='item-title'>{item.name}</h2>
@@ -37,7 +37,7 @@ const BeerItem = () => {
         <Link to="/beerList"><img className='back-btn' src={Back} alt="-" /></Link>
       </div>
       <Nav />
-    </>
+    </div>
   );
 }
 

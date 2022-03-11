@@ -15,7 +15,7 @@ const BeerList = () => {
   }, []);
 
   return (
-    <div>
+    <div className='map-wrapper'>
       {api.map((item, i) => {
         return (
           <div className='beerItems' key={i}>
